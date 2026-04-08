@@ -12,7 +12,7 @@ int main()
 {
     int a,b,sum;
     printf("enter the two variable");
-    scanf("%d,%d",&a,&b);
+    scanf("%d%d",&a,&b);
     sum =a+b;
     printf("addition =%d",sum);
     return 0;
